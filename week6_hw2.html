@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site FIGMA</title>
+        <style>
+            .conteiner {
+                display: grid;
+                grid-template-columns: 1fr 1fr 200px;
+                grid-template-rows: 80px 1fr 1fr 1fr 100px;
+    
+            }
+    
+            .header {
+                background: grey;
+                grid-column: 1/6;
+            }
+    
+            .content {
+                background: yellow;
+                grid-column: 1/3;
+                grid-row: 2/5;
+            }
+    
+            .content-1 {
+                background: tomato;
+                grid-column: 1/2;
+            }
+    
+            .content-2 {
+                background: tomato;
+                grid-column: 2/3;
+            }
+    
+            .content-3 {
+                background: tomato;
+                grid-column: 1/3;
+    
+            }
+    
+            .sidebar {
+                background: green;
+                grid-column: 3/6;
+                grid-row: 2/7;
+            }
+    
+            .footer-1 {
+                grid-column: 1/2
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="conteiner">
+            <header class="header">[Шапка страницы]</header>
+            <div class="content">[Основная часть]</div>
+            <div class="content-1">[Ещё 1]</div>
+            <div class="content-2">[Ещё 2]</div>
+            <div class="content-3">[Ещё 3]</div>
+            <aside class="sidebar">[Боковая область]</aside>
+            <footer class="footer-1">[Секция футера 1]</footer>
+            <footer class="footer-2">[Секция футера 2]</footer>
+            <footer class="footer-3">[Секция футера 3]</footer>
+            <footer class="footer-4">[Секция футера 4]</footer>
+        </div>
+    </body>
+    
+    </html>
